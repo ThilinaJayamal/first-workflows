@@ -16,4 +16,6 @@ jobs:
         run: |
           ls ${{ github.workspace }}
           date
+          pwd
+          whoami
       - run: echo "🍏 This job's status is ${{ job.status }}."
